@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <title>Array Rendering Golang</title>
+  </head>
+
+  <body>
+    <ul>
+      {% for line in arr %}
+      <li>{{ line|safe }}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>

@@ -36,3 +36,12 @@ docker build -t kkpagaev/bench-js:latest node
 docker run --rm -p 3004:3004 -t kkpagaev/bench-js:latest
 ```
 
+## Python
+```bash
+docker build -t kkpagaev/bench-py:latest python
+```
+
+```bash
+docker run --rm -p 3005:3005 -t kkpagaev/bench-py:latest
+```
+
