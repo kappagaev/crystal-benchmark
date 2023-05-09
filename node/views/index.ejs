@@ -7,7 +7,11 @@
 
 <body>
   <ul>
-    <%= message %>
+    <% for (let i=0; i < arr.length; i++) {%>
+      <li>
+        <%= arr[i] %>
+      </li>
+      <% } %>
   </ul>
 </body>
 
