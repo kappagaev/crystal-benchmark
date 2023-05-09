@@ -3,6 +3,7 @@
 A simple benchmark to compare the performance of Crystal, Go, Ruby, Node and Python.
 
 All the tests were run on a EC2 t2.micro instance using Docker. The benchmark tool is Apache Benchmark.
+The test is a simple http server that computes all fibonacchi numbers to 80 and renders html page. 
 
 Results are in [results](results) file.
 Full log is in [full_log](full_log) file.
