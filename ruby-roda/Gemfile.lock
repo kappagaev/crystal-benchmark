@@ -8,8 +8,13 @@ GEM
     puma (6.2.2)
       nio4r (~> 2.0)
     rack (3.0.7)
+    rackup (2.1.0)
+      rack (>= 3)
+      webrick (~> 1.8)
     roda (3.68.0)
       rack
+    tilt (2.1.0)
+    webrick (1.8.1)
 
 PLATFORMS
   x86_64-linux
@@ -17,7 +22,9 @@ PLATFORMS
 DEPENDENCIES
   erb
   puma
+  rackup
   roda
+  tilt
 
 RUBY VERSION
    ruby 3.1.0p0
